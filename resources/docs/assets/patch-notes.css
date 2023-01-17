@@ -1,0 +1,136 @@
+#patch-notes {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #3b4151;
+    margin: 1em;
+    margin-left: auto;
+    text-align: center;
+    padding: 0;
+}
+
+.patch-note-div {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 84%;
+    margin: auto;
+    padding: 0px 10px 0px 10px;
+    line-height: 40px;
+    border-bottom: 0.1em solid #3b4151;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.patch-note-header {
+    margin: 0;
+    width: 100%;
+    font-weight: bolder;
+    font-size: 1.2em;
+    color: #3b4151;
+}
+
+.patch-note-date {
+    display: block;
+    float: right;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.patch-note-label-tag {
+    margin: 0;
+    font-size: 1.2em;
+    margin-left: 1em;
+    font-weight: 400;
+    color: #444;
+}
+
+.patch-note-tag {
+    margin: 0;
+    font-size: 1em;
+    margin-left: 1em;
+    font-weight: bolder;
+    color: #333;
+}
+
+.patch-note-table {
+    width: 100%;
+}
+
+.patch-note-div:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.patch-note-div:nth-child(odd) {
+    background-color: #F2F2F2;
+}
+
+.patch-note-table tr:nth-child(1) th:nth-child(1) {
+    width: 80%;
+    max-width: 80%;
+    min-width: 60%;
+}
+
+.patch-note-table th {
+    border-bottom: 1px dashed #3b4151;
+    font-size: 1.2em;
+    color: #444;
+}
+
+.patch-note-table td:nth-child(2) {
+    text-align: center;
+    border-right: 1px dashed #3b4151;
+    border-left: 1px dashed #3b4151;
+}
+
+.patch-note-table td {
+    border-bottom: 1px dashed #3b4151;
+}
+
+.patch-note-content {
+    margin: 0;
+    display: none;
+    z-index: 1;
+}
+
+.patch-note-div:hover .patch-note-content,
+.patch-note-div:active .patch-note-content {
+    display: block;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    background-color: #38485C;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    padding: 4px 0;
+    margin-top: 18px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    border: 0;
+    background-color: #F2F2F2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+}
