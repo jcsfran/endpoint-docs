@@ -32,7 +32,7 @@ Para configurar o nome da rota de acesso da documentação, entre no arquivo `l5
 #### Middleware de segurança
 Adicione o middleware de segurança na variável `$routeMiddleware` em `Http/Kernel.php`
 ```php
-'access_docs' => \Julio\Swagger\Src\ValidateAccessDocumentationRoute::class,
+'access_docs' => \Julio\EndpointDocs\Src\ValidateAccessDocumentationRoute::class,
 ```
 Acesse o arquivo `l5-swagger.php` e adicione o `access_docs`
 ```php
