@@ -27,7 +27,7 @@
         });
     </script>
 
-    @inject('patchNotes', 'Julio\Swagger\Src\DocumentationHelper')
+    @inject('patchNotes', 'Julio\EndpointDocs\Src\DocumentationHelper')
 
     <h2 id="patch-notes">Notas de atualização</h2>
 
