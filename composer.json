@@ -1,0 +1,24 @@
+{
+    "name": "julio/endpoint-docs",
+    "type": "library",
+    "require": {
+        "darkaonline/l5-swagger": "^8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Julio\\EndpointDocs\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Julio Cesar Francisquini"
+        }
+    ],
+    "extra": {
+        "laravel": {
+          "providers": [
+                "Julio\\EndpointDocs\\Src\\DocumentationServiceProvider"
+            ]
+        }
+    }
+}
