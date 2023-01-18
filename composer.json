@@ -2,8 +2,7 @@
     "name": "julio/endpoint-docs",
     "type": "library",
     "require": {
-        "darkaonline/l5-swagger": "^8.4",
-        "symfony/yaml": "^6.0"
+        "darkaonline/l5-swagger": "^8.4"
     },
     "autoload": {
         "psr-4": {
@@ -21,5 +20,8 @@
                 "Julio\\EndpointDocs\\Src\\DocumentationServiceProvider"
             ]
         }
-    }
+    },
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
