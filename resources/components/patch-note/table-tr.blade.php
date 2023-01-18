@@ -1,25 +1,17 @@
 <tr>
-    @if (!empty($description))
-        <td>
-            {{ $description }}
-        </td>
-    @endif
+    <td>
+        {{ $description }}
+    </td>
 
-    @if (!empty($action))
-        <td>
-            {{ $action }}
-        </td>
-    @endif
+    <td>
+        {{ $action }}
+    </td>
 
-    @if (!empty($method))
-        <td>
-            {{ $method }}
-        </td>
-    @endif
+    <td>
+        {{ $method }}
+    </td>
 
-    @if (!empty($endpoint))
-        <td>
-            {{ $endpoint }}
-        </td>
-    @endif
+    <td>
+        {{ $endpoint }}
+    </td>
 </tr>

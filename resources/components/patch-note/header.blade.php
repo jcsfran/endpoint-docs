@@ -9,7 +9,7 @@
 
     @if (!empty($date))
         <span class="patch-note-date">
-            adicionado em {{ $date }}
+            adicionado em {{ \Carbon\Carbon::parse($date)->isoFormat('DD/MM/YY') }}
         </span>
     @endif
 </h3>
