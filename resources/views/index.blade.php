@@ -32,7 +32,7 @@
     <h2 id="patch-notes">Notas de atualização</h2>
 
     @forelse ($patchNotes->getPatchNotes() as $patch)
-        <x-patch-note.div-patch-note :value="$patch" />
+        <x-patch-note.div-patch-note :info="$patch['info']" />
     @empty
         <p>Sem notas de atualização</p>
     @endforelse
