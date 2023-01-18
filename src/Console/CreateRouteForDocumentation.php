@@ -49,7 +49,7 @@ class CreateRouteForDocumentation extends Command
                 names: $this->option('name')
             );
 
-        return $this->info('Created file: ' . $path);
+        return $this->info('Copy path file: ' . config('documentation.patch_notes_path') . '/' . $path);
     }
 
     private function checkOptionsReported(): void
